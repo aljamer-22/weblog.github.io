@@ -77,7 +77,7 @@ span.black {
   color: #333333;
 }
 .white-font {
-  color: #fff;
+  color: #fff !important;
 }
 
 .yellow-font {
@@ -429,7 +429,7 @@ body {
     gap: 1rem;
     align-items: flex-start;
   }
-  
+
   .content2 p {
     margin: 0;
     flex: 1;
@@ -645,6 +645,9 @@ img.cardDay {
 .bg-gray {
   background-color: rgb(158, 158, 158);
 }
+.bg-gray-2 {
+  background-color: rgb(224, 224, 224);
+}
 .bg-green {
   background-color: #0B380D;
 }
@@ -715,7 +718,7 @@ ion-icon {
 }
 /*speaker*/
 .width-50 {
-  width: 100%;
+  width: 75%;
 }
 .s-name {
   display: flex;
@@ -726,6 +729,9 @@ ion-icon {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
   margin-top: 5rem;
+  justify-items: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
 }
 
 /*Venue*/
@@ -746,4 +752,68 @@ ion-icon {
 .carousel-indicators .active {
   background-color: #fff;
   opacity: 1;
+}
+.img-container {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: #333 solid 3px;
+
+}
+
+.map-iframe {
+  width: 100%;
+  height: 300px;
+  border: #025402 solid 3px;
+  border-radius: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+.speaker-circle {
+ border-radius: 50%;
+ border: #333 solid 2px; 
+}
+
+.speaker-header-p {
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  margin: 10px 0px 0px 0px;
+  color: #333;
+  text-align: center;
+}
+.bg-green-2 {
+  border-radius: 20px;
+  background-color: #ffffff;
+  transition: color 0.3s, background-color 0.5s, transform 0.3s;
+  border: #333 solid 2px;
+}
+.bg-green-2:hover  {
+  transform: translateY(-5px);
+  background-color: #f0f0f0;
+  color: #ccc !important;
+  border: #333 solid 2px;
+}
+.loc-name {
+  font-family: bebas, sans-serif;
+  font-size: 1.2rem;
+  color: #333;
+  text-align: center;
+  align-content: center;
+}
+.fs-7 {
+  font-size: 0.8rem;
+  font-family: bebas;
+}
+.bio {
+  width: 100%;
+  height: auto;
+}
+.opacity {
+  opacity: 0;
 }
