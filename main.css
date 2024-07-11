@@ -89,6 +89,9 @@ span.black {
 .bebas {
   font-family: Montserrat-Light;
 }
+.bebas-2 {
+  font-family: bebas !important;
+}
 
 
 p.font-1 {
@@ -590,7 +593,7 @@ img.cardDay {
   text-align: center;
 }
 .speaker {
-  width: 10vw;
+  width: 200px;
 }
 .content-speaker {
   display: flex;
